@@ -1,14 +1,16 @@
+package services;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.text.*;
 import java.util.*;
-
+import interfaces.Service;
 
 /**
  * The DayOfWeek service
  */
-public class DayOfTheWeekService implements Service{
+public class DayOfTheWeekService implements Service {
 
     JLabel outPutLabel;
     JComboBox month;

@@ -1,3 +1,7 @@
+package interfaces;
+
+import interfaces.Service;
+
 import java.rmi.*;
 
 /**

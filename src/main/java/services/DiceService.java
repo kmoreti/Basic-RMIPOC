@@ -1,3 +1,7 @@
+package services;
+
+import interfaces.Service;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -6,7 +10,7 @@ import java.awt.event.ActionListener;
 /**
  * The Dice service
  */
-public class DiceService implements Service{
+public class DiceService implements Service {
 
     JComboBox numOfDice;
     DicePanel [] dices;

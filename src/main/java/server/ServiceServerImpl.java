@@ -1,3 +1,11 @@
+package server;
+
+import interfaces.Service;
+import interfaces.ServiceServer;
+import services.DayOfTheWeekService;
+import services.DiceService;
+import services.MiniMusicService;
+
 import java.rmi.*;
 import java.util.*;
 import java.rmi.server.*;

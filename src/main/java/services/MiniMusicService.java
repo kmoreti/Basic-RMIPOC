@@ -1,3 +1,7 @@
+package services;
+
+import interfaces.Service;
+
 import javax.sound.midi.*;
 import javax.swing.*;
 import java.awt.*;
@@ -7,7 +11,7 @@ import java.awt.event.ActionListener;
 /**
  * The MiniMusic service
  */
-public class MiniMusicService implements Service{
+public class MiniMusicService implements Service {
     MyDrawPanel myPanel;
 
     public JPanel getGuiPanel() {

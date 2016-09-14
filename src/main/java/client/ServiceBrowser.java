@@ -1,4 +1,7 @@
-import com.sun.corba.se.spi.activation.Server;
+package client;
+
+import interfaces.Service;
+import interfaces.ServiceServer;
 
 import java.awt.*;
 import javax.swing.*;
