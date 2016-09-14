@@ -3,7 +3,9 @@ Proof of Concept of RMI architecture
 
 This code was extracted from Head First Java book - Kathy Sierra & Bert Bates - O'Reilly - Alta Books - 2ª edition.
 
-#Instructions
+The class DiceService.java has my solution for showing the dice results in a graphic way.
+
+# Instructions
 
 ->> Running the server application in a different machine
 
