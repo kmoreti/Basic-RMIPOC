@@ -15,4 +15,8 @@ RMIProj/classes$ rmiregistry
 
 2) In a different terminal run the server application:
 
-RMIProj/classes$ java -Djava.rmi.server.hostname=10.146.93.108 ServiceServerImpl
+RMIProj/classes$ java -Djava.rmi.server.hostname=10.146.93.108 server/ServiceServerImpl
+
+3) In the client machine, into your classes directory, run the client application:
+
+ProjRMIPOC/classes$ java client/ServiceBrowser
